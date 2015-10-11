@@ -1,0 +1,11 @@
+wget -c --referer=引用地址 -O 文件名 "真实下载地址"
+
+例如
+下载资源的页面为
+http://pan.baidu.com/s/1cfJXZ
+
+实际下载地址是
+http://qd.baidupcs.com/file/0208e4842495c30cf891daa1b6338313?xcode=9999267f350e17b6d0fdac32a16253bfbd8b8532c56c21c1&fid=3590760175-250528-1001767054&time=1382427122&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-cKiDc588o4Fc6FMGOxqFaFj0s2k%3D&to=qb&fm=Q,B,T,t&expires=8h&rt=sh&r=120688192&logid=2538790480&sh=1&fn=WIN_2003_SP2.iso
+
+即可以按如下命令进行下载
+wget -c --referer=http://pan.baidu.com/s/1cfJXZ -O windows2003.iso "http://qd.baidupcs.com/file/0208e4842495c30cf891daa1b6338313?xcode=9999267f350e17b6d0fdac32a16253bfbd8b8532c56c21c1&fid=3590760175-250528-1001767054&time=1382427122&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-cKiDc588o4Fc6FMGOxqFaFj0s2k%3D&to=qb&fm=Q,B,T,t&expires=8h&rt=sh&r=120688192&logid=2538790480&sh=1&fn=WIN_2003_SP2.iso"
